@@ -1,0 +1,17 @@
+/*                exercise 1              */
+
+.exercise1 {
+    background-color: aqua;
+    border: 2px solid;
+    font-size: x-large;
+    font-weight: bold;
+}
+.exercise2 {
+    background-color: bisque;
+    border: 1px solid;
+    font-size: larger;
+    font-weight: 500;
+}
+.button {
+    font-size: medium;
+}
