@@ -51,7 +51,7 @@ Specify the title, the charset (UTF-8) and the viewport of the page.
     <hr />
   
     <input type="color" placeholder="Color" id="colorPicker" />
-    <input class="button" type="button" value="Change task background" />
+    <input class="button" type="button" value="Change task background" onclick="changeColor()" />
   
     <hr />
   
@@ -101,7 +101,10 @@ Specify the title, the charset (UTF-8) and the viewport of the page.
                Create a function "changeTaskBackgroundColor" and attach it to the "Change task background" button via JavaScript (not via html attribute)
                Take the color from the color picker ad apply it as background to every list item
       */
-  
+         function changeTaskBackgroundColor() {
+            let color = document.getElementById('button').value
+            document.body.style.backgroundColor = color
+         }
       /* ### EXTRA ### */
   
       /* EXERCISE 10:
