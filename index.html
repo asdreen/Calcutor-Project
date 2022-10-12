@@ -80,21 +80,23 @@ Specify the title, the charset (UTF-8) and the viewport of the page.
 
         
 
-      /* EXERCISE 6:
-                Create a function "removeLast" which removes the last item from the task list
-            */
-
+      /*         EXERCISE 6:                  Create a function "removeLast" which removes the last item from the task list*/
         data.pop();
         document.getElementById("myTaskList").innerHTML = data;
-        
-      /* EXERCISE 7:
-                Create a function "removeFirst" which removes the first item from the task list
-            */
-  
+
+
+      /*         EXERCISE 7:                  Create a function "removeFirst" which removes the first item from the task list */
+        data.shift();
+        document.getElementById("myTaskList").innerHTML = data;
+
+
       /* EXERCISE 8:
                Create a function "getTasksAsArray" which returns, and prints to the console an array containing the tasks as strings
             */
-  
+            
+   
+ 
+
       /* EXERCISE 9:
                Create a function "changeTaskBackgroundColor" and attach it to the "Change task background" button via JavaScript (not via html attribute)
                Take the color from the color picker ad apply it as background to every list item
